@@ -1,0 +1,26 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profile-card {
+  background-color: rgba(72, 166, 248, 0.4);
+  border-radius: 1rem;
+}
+
+.App {
+  background-image: url("./assets/images/bg-001.jpg");
+  background-size: cover;
+}
+
+.profile-card:hover {
+  /* transition: all 0.5s; */
+  background-color: rgba(72, 166, 248, 0.8);
+  -webkit-box-shadow: 11px 11px 70px -25px rgba(235, 245, 255, 1);
+  -moz-box-shadow: 11px 11px 70px -25px rgba(235, 245, 255, 1);
+  box-shadow: 11px 11px 70px -25px rgba(235, 245, 255, 1);
+}
